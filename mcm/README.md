@@ -1,9 +1,9 @@
 To change the behavior edit the hello-world-app.yaml (e.g. to specify the correct ingress.host value for your environment)
 
 Currently uses this project:
-https://hub.docker.com/r/eltondesouza/go-hello-world
+https://hub.docker.com/r/slipsibm/go-hello-world
 which uses a multi-arch image that will run on x86 and z to demonstrate MCM capabilities
-Image at docker.io/eltondesouza/go-hello-world:latest
+Image at docker.io/slipsibm/go-hello-world:latest
 
 ### Clusters with tag on environment=Demo will get the app deployed. Look at Route in hello-world NS for url.
 
