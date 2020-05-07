@@ -150,7 +150,7 @@ spec:
           containers:
             - env:
               name: helloworld
-              image: "docker.io/eltondesouza/go-hello-world:latest"
+              image: "docker.io/slipsibm/go-hello-world:latest"
               imagePullPolicy: Always
               ports:
                 - name: http
